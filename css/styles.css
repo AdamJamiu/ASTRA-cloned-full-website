@@ -7,9 +7,9 @@ header{
   min-height: 90vh;
   text-align: center;
   padding: 5%;
-background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%);
+  background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%);
 }
-.gradient {
+.gradient {  
   justify-content: center;
 }
 
@@ -21,21 +21,34 @@ background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%
 .companies{
   background-color: transparent;
     background-image: linear-gradient(
+
 180deg
 , #FFFFFF 0%, #F9F9F9 100%);
 
 }
+
+.btn-yellow{
+  border-radius: 50rem;
+  border: 2px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+.btn-yellow:hover{
+  color: black;
+  background-color: white;
+}
+
 .comp-head{
   text-align: center;
   color: #2f3f50;
 }
 
+
 .head-span{
   color: #808285;;
 }
-.page-header {
-  margin-top: 4rem;
-  
+.page-header { 
   color: #fff;
 }
 
@@ -55,6 +68,18 @@ background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%
   padding-right: 2em;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 
 
 .feature {
@@ -68,7 +93,6 @@ background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%
 
 .feature ul li {
  
-  
   background-repeat: no-repeat;
   line-height: 1.5rem;
   margin-bottom: 1rem;
