@@ -3,19 +3,19 @@ body {
   height: 100%;
   
 }
-header{
+
+.gradient {  
+  justify-content: center;
   min-height: 90vh;
   text-align: center;
   padding: 5%;
   background: linear-gradient(150deg, rgba(73,44,221,1) 0%, rgba(173,56,226,1) 85%);
 }
-.gradient {  
-  justify-content: center;
-}
 
 .templates{
-  margin-bottom: -5em;
+  transform: translateY(19.5%);
   max-width: 92%;
+  position: sticky;
 }
 
 .companies{
@@ -34,30 +34,58 @@ header{
   padding-right: 10px;
  
 }
+
+.tog{
+  display: none;
+}
 .btn-yellow:hover{
   color: black;
   background-color: white;
 }
 
+.navbar-toggler{
+  line-height: 2.05;
+  background: rgba(255,255,255,0.14);
+  fill: white;
+}
+
+.navbar-toggler-icon{
+  fill: white;
+
+
+}
 .comp-head{
   text-align: center;
   color: #2f3f50;
+  padding-top: 1em;
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
-
+ .bxs-star{
+  color: gold;
+  font-size: 1rem;
+  
+}
 .head-span{
-  color: #808285;;
+  color: #808285;
+  letter-spacing: 0px;
+  font-weight: 400;
 }
 .page-header { 
   color: #fff;
+  max-height: 130vh;
 }
 
 .home-text{
   font-weight: bolder !important;
 
-
 }
 
+.g-5{
+  padding-top: 2em;
+}
 .yl-btn{
   border-radius: 50rem;
   font-size: 1em;
