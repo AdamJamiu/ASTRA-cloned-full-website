@@ -72,8 +72,8 @@ body {
 
 .review-header{
   text-align: center;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: bolder;
   color: #2f3f50;
   line-height: 1.4;
 }
@@ -94,15 +94,71 @@ body {
 
 }
 
-.rating-grid{
+.nav-1{
+  margin-left: 48rem;
+  position: sticky;
+}
 
-  border: 1px solid;
+div .rating-grid{
+  min-width: 1rem;
+}
+
+.lema{
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #5C2EDE52;
+  border-radius: 560px 560px 560px 560px;
+  
+  
+}
+
+.img-name{
+  font-weight: bold;
+  color: #2f3f50;
+  text-align: center;
+  
+}
+
+.profile{
+  display: block;
+  float: left;
+}
+
+.blog-txt{
+  line-height: 1.7rem;
+  text-align: left;
+  padding-left: 9em;
+  width: 100%;
+  vertical-align: baseline;
+  font-size: 100%;
+  letter-spacing: 1.3px;
+}
+.rating-grid{
+  text-align: center;
+  border: 1px solid #EAEAEA;
   background-color: #FFFFFF;
   border-radius: 5px 5px 5px 5px;
-  border-color: #EAEAEA;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin: 0px 20px 0px 0px;
     padding: 22px 22px 22px 22px;
+    height: 11rem;
+    max-width: 15rem;
+}
+
+.review{
+  padding-left: 10%;
+}
+
+.rating-blog{
+  text-align: center;
+  border: 1px solid #EAEAEA;
+  background-color: #FFFFFF;
+  border-radius: 5px 5px 5px 5px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 20px 0px 0px;
+    padding: 22px 22px 22px 22px;
+    height: 11rem;
+    max-width: 38rem;
 }
 .g-5{
   padding-top: 2em;
