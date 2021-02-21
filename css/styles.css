@@ -343,5 +343,46 @@ a {
 
 .tools-sec{
   background-color: #FCFCFC;
+  justify-content: center;
+  text-align: center;
+  display: grid;
 
+}
+
+.tools-txt{
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: left;
+
+}
+
+.gut-head{
+  text-align: left;
+  font-weight: bold;
+  color: #2f3f50;
+  width: 55%;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  
+}
+
+.gut-txt{
+  text-align: left;
+  line-height: 1.8;
+  width: 70%;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.gutenberg{
+  height: auto;
+    max-width: 100%;
+    display: flex ;
+    align-items: left;
+
+}
+
+.gutenberg-grid{
+  
 }
