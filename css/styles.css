@@ -1,6 +1,7 @@
-html,
+
 body {
-  height: 100%;
+margin: 0;
+padding: 0;
   
 }
 
@@ -206,10 +207,10 @@ div .rating-grid{
 .blog-txt{
   line-height: 1.7rem;
   text-align: left;
-  padding-left: 9em;
+  padding-left: 10em;
   width: 100%;
   vertical-align: baseline;
-  font-size: 100%;
+  font-size: 80%;
   letter-spacing: 1.3px;
 }
 .rating-grid{
@@ -345,26 +346,27 @@ a {
   background-color: #FCFCFC;
   justify-content: center;
   text-align: center;
-  display: grid;
+
 
 }
 
 .tools-txt{
   text-align: center;
-  font-weight: 400;
+  font-weight: 450;
   font-size: 1.2em;
-  text-align: left;
 
 }
+
 
 .gut-head{
   text-align: left;
   font-weight: bold;
   color: #2f3f50;
-  width: 55%;
+  width: 65%;
   word-wrap: break-word;
   letter-spacing: 1px;
   line-height: 1.2;
+  background-color: red;
   
 }
 
@@ -374,15 +376,26 @@ a {
   width: 70%;
   font-size: 17px;
   letter-spacing: 1px;
+  max-width: 100%;
 }
 .gutenberg{
-  height: auto;
-    max-width: 100%;
+    height: auto;
     display: flex ;
-    align-items: left;
-
+    align-items: center;
 }
 
+.gut-astra{
+  max-width: 100%;
+}
+
+.gutenberg-wrap{
+  padding: 2%;
+  background-color: #FFFFFF;
+  width: 11%;
+  height: 20%;
+  max-width: 100%;
+  
+}
 .gutenberg-grid{
   
 }
