@@ -399,3 +399,36 @@ a {
 .gutenberg-grid{
   
 }
+
+.performance{
+  background-color: #5c2ede;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: #fff;
+  padding-left: 14%;
+  padding-right: 14%;
+  text-align: center;
+}
+
+.performance-head{
+  font-weight: bold;
+  display: inline-block;
+  
+
+  
+}
+
+  .performance-txt{
+    
+    line-height: 1.8;
+   box-sizing: border-box;
+    text-align: left !important;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .perf-svg{
+    fill: white;
+    display: inline-block;
+    
+  }
